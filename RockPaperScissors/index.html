@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Rock, Paper, Scissors</title>
+	<!-- Latest compiled and minified bootstrap 3 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,500,700,900|Varela+Round" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<section id="headline">			
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="#"><h2>rock paper scissors</h2></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="game">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<h3 class="player">you</h3>
+				<img id="playerHand" class="img-responsive" src="assets/img/player1Rock.png" alt="your choice">
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<h3>computer</h3>
+				<img id="computerHand" class="img-responsive" src="assets/img/computer1Paper.png" alt="computer's choice">
+			</div>
+		</div>
+</section>
+
+<section id="choice">
+	<div class="container-fluid">
+		<div class="row">
+			<div id="buttons" class="col-xs-12 col-sm-6 paddingless">
+				<img id="rock" src="assets/img/choiceRock.png" alt="choose rock">
+				<img id="paper" src="assets/img/choicePaper.png" alt="choose paper">
+				<img id="scissors" src="assets/img/choiceScissors.png" alt="choose scissors">
+			</div>
+			<div id="textResultParent" class="col-xs-12 col-sm-6">
+				<p></p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Custom JS -->
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
